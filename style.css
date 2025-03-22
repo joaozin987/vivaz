@@ -89,7 +89,7 @@ p{
 @media (max-width: 568px) {
     .card {
         width: 70%; 
-        margin-left: 10%; /* Centraliza o card */
+        margin-left: 2rem; /* Centraliza o card */
         margin-bottom: 10%; /* Adiciona espaço entre os cards */
         margin-top: 20%;
         height: auto; /* Permite que a altura se ajuste ao conteúdo */
