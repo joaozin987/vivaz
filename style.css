@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #000000e8 !important;
+  margin: auto;
+  height: auto;
+}
+header{
+    background-color: rgb(66, 64, 64);
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+}.flex{
+    display: flex;
+}
+.nav-bar{
+   padding: 0.5rem;  
+}
+img{
+    width: 140px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 0.5rem;
+}
+ul{
+}
+header a{
+  color : rgba(255, 251, 251, 0.897);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2.5rem;
+    font-family: bold;
+    padding: 0.7rem;
+    font-size: 20px;
+    margin-top: 1.7rem;
+    text-align: center;
+    transition: .5s;
+}
+a:hover{
+    cursor: pointer;
+    color: black ;
+    transform: scale(1.2);
+}
+
+li{
+    display: inline-block;    
+}
+h1{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-family: serif;
+    color: antiquewhite;
+    text-align: center;
+    transition: .4s;
+}
+h1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+p{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.flexx{
+    display: flex;
+    gap: 1.7rem;
+    margin-top: 2rem;
+}
+.card {
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 2rem;
+    width: 23%;
+    height: 78vh;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 4rem;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:  .3s;
+}
+@media (max-width: 568px) {
+    .card {
+        width: 65%; /* Ocupa 90% da largura da tela */
+        margin-left: 20%; /* Centraliza o card */
+        margin-bottom: 10%; /* Adiciona espaço entre os cards */
+        margin-top: 20%;
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+        display: block; /* Empilha os cards verticalmente */
+    }
+    .card h1{
+        margin-top: 10%;
+    }
+    .flexx{
+        display: grid;
+    }
+}
+.card:hover{
+     transform: scale(1.1);
+}
+.card p{
+    color: rgb(15, 209, 161);
+    font-size: 20px;
+}
+.card img {
+    margin: 10px 0;
+    max-width: 90%;
+    width: 200px;
+    border-radius: 3px;
+    height: 27vh;
+}
+.desconto span {
+    background: yellow;
+    padding: 2px 5px;
+    margin-left: 0.3rem;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.detalhes{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #1e3ef1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    transition: .3s;
+}
+.detalhes:hover{
+    transform: scale(1.2);
+}
+
+.btn2{
+    padding: 8px 8px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    background-color: #0f0707;
+    color: wheat;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+
+}
+.btn2:hover{
+    background-color: #1cb4a8;
+}
+footer{
+    background-color: #000000e8;
+    width: auto;
+    height: 40vh;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+footer h1{
+    font-size: 1.8rem;
+    color: rgb(238, 237, 237);
+    font-family: Helvetica,;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+   
+}
+footer p{
+    color: antiquewhite;
+   text-align: justify;
+    font-size: 15px;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+}
+.redes{
+    display: flex;
+}
+footer .redes a {
+    text-decoration: none; 
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    transition: .5s;
+}
+footer .redes .insta a i{
+    color: rgb(218, 5, 76);
+    transition: .10s;
+}
+
+footer .redes .whats a i{
+    color: rgb(7, 168, 1);
+    transition: .4s;
+}
+
+.whats:hover{
+    transform: scale(1.2);
+}
+
+.insta:hover{
+    transform: scale(1.2);
+
+}
