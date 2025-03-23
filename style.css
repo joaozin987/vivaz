@@ -97,7 +97,7 @@ p{
     }
     .card  th h1{
         margin-top: 5%;
-        font-family: sans-serif;
+        font-family: serif;
     }
     .flexx{
         display: grid;
@@ -121,9 +121,10 @@ p{
 .card:hover{
      transform: scale(1.1);
 }
-.card h1{
-    font-size: 1.8rem;
+.card th h1{
+    font-size: 1.4rem;
     color: #0f0707;
+    font-family: serif !important;
 }
 .card p{
     color: rgb(0, 0, 0);
@@ -176,7 +177,7 @@ p{
 footer{
     background-color: #000000e8;
     width: auto;
-    height: 40vh;
+    height: 25vh;
     border-radius: 1rem;
     margin-top: 5rem;
 }
