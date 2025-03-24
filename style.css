@@ -149,7 +149,7 @@ p{
     }
     .catalogo h1{
         font-size: 30px;
-        font-family: cursive;
+        font-family: serif;
     }
 }
 .btn2{
@@ -158,12 +158,13 @@ p{
     cursor: pointer;
     margin-top: 0.5rem;
     margin-right: 1rem;
-    background-color: #0f0707;
+    background-color: #0f0707 !;
     color: wheat;
     border-radius: 5px;
     border: none;
     font-size: 1.2rem;
     font-family: serif;
+    text-decoration: none;
 
 }
 .box:hover{
