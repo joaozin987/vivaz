@@ -122,7 +122,7 @@ p{
         margin-left: 0;
         margin-right: 0;
         gap: 3px;
-        height: 63vh; 
+        height: 66vh; 
         flex: 1 1 calc(40% - 20px);
         transform: none;
     }
