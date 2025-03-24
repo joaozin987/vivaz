@@ -67,47 +67,92 @@ p{
     margin-bottom: 10rem;
 }
 
+.catalogo{
+    background-color: rgb(57, 59, 59);
+    padding: 10px;
+    margin-top: 5rem;
+    color: lightblue;
+    border-radius: 1.4rem;
+    align-items: center;
+    text-align: center;
+    box-shadow:  2px 3px 4px#ddd;
+    width: 40%;
+
+    margin-left: 4rem;
+}
+.catalogo h1{
+    font-size: 30px;
+    
+    font-family: cursive;
+}
 .flexx{
     display: flex;
     gap: 1.7rem;
     margin-top: 2rem;
 }
-.card {
-    background: #fff;
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 2rem;
-    width: 25%;
-    height: 68vh;
-    font-family: cursive;
-    text-align: center;
-    margin-left: 3.5rem;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition:  .3s;
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divs quebrem para a próxima linha */
+    justify-content: center; /* Centraliza no desktop */
+    gap: 15px; /* Espaço entre as divs */
+    padding: 10px;
 }
-@media (max-width: 568px) {
-    .card {
-        width: 70%; 
-        margin-left: 14%; /* Centraliza o card */
-        margin-bottom: 10%; /* Adiciona espaço entre os cards */
-        margin-top: 20%;
-        height: auto; /* Permite que a altura se ajuste ao conteúdo */
-        display: block; /* Empilha os cards verticalmente */
-    }
-    .card  th h1{
-        margin-top: 5%;
-        font-family: serif;
-    }
-    .flexx{
-        display: grid;
-    }
 
+.box {
+    flex: 1 1 calc(10% - 20px); 
+    padding: 16px;
+    width: 50%;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 72vh;
+    margin-left: 4rem;
+    box-shadow: 1px 2px 2px 2px#ddd;
+    font-family: cursive;
+    transition: .4s;
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 568px) {
+    .box {
+        
+        margin-bottom: 10%; 
+        margin-left: 0;
+        margin-right: 0;
+        gap: 3px;
+        height: 63vh; 
+        flex: 1 1 calc(40% - 20px);
+        transform: none;
+    }
+    .box  th h2{
+        margin-top: 2%;
+        font-family: serif;
+        margin-bottom: 2%;
+    }
+    .card-container{
+        flex-direction:  row;
+    }
+    .btn2{
+        margin-left: 5px;
+    }
+    .box img{
+        width: 50px;
+    }
+    .catalogo{
+        padding: 1rem 1rem;
+        width: 70%;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
 .btn2{
     padding: 8px 8px;
     display: inline-block;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-right: 1rem;
     background-color: #0f0707;
     color: wheat;
@@ -117,45 +162,45 @@ p{
     font-family: serif;
 
 }
-}
-.card:hover{
+.box:hover{
      transform: scale(1.1);
 }
-.card th h1{
+.box th h1{
     font-size: 1.4rem;
     color: #0f0707;
     font-family: serif !important;
 }
-.card p{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: serif;
-}
-.card img {
+.box img {
     margin: 10px 0;
     max-width: 90%;
     width: 200px;
     border-radius: 3px;
     height: 27vh;
 }
+.nome{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+.desconto{
+    font-size: 20px;
+    color: #0f0707;
+    margin-bottom: 1.5px;
+    margin-top: 1rem;
+}
 .desconto span {
     background: yellow;
-    padding: 2px 5px;
+    padding: 1px 5px;
     margin-left: 0.3rem;
     font-size: 12px;
+    color: #0c0c0c;
     border-radius: 3px;
 }
-.detalhes{
-    text-decoration: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #1e3ef1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    transition: .3s;
-}
-.detalhes:hover{
-    transform: scale(1.2);
+.normal{
+    font-size: 24px;
+    color: #0f0707;
+
 }
 
 .btn2{
