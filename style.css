@@ -113,7 +113,17 @@ p{
 }
 
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+        z-index: 1050;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 700; 
+    }
+
     .box {
         
         margin-bottom: 10%; 
@@ -152,18 +162,15 @@ p{
         transform: none;
     }
     .carousel-control-prev, .carousel-control-next {
-        width: 10%; /* Diminui a largura dos botões no mobile */
-        top: 90%; /* Ajusta a posição vertical para dispositivos menores */
+        top: -3%;
+        transform: translateY(-3%);
+        position: fixed;
+        z-index: 1000; 
     }
-
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        width: 25%;
-        height: 25%;
-    }
-    .carousel-item style{
-        height: 20vh;
-    }
+    
+    
 }
+
 .btn2{
     padding: 8px 8px;
     display: inline-block;
@@ -179,6 +186,7 @@ p{
     text-decoration: none;
 
 }
+
 .box:hover{
      transform: scale(1.1);
 }
