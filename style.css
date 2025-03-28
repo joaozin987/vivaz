@@ -122,7 +122,6 @@ p{
         gap: 3px;
         height: 65vh; 
         flex: 1 1 calc(40% - 20px);
-        transform: none;
     }
     .box  th h2{
         margin-top: 2%;
@@ -151,6 +150,15 @@ p{
     }
     .box:hover {
         transform: none;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 10%; /* Diminui a largura dos botões no mobile */
+        top: 90%; /* Ajusta a posição vertical para dispositivos menores */
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 25%;
+        height: 25%;
     }
 }
 .btn2{
