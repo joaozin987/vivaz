@@ -90,9 +90,9 @@ p{
 }
 .card-container {
     display: flex;
-    flex-wrap: wrap; /* Permite que as divs quebrem para a próxima linha */
-    justify-content: center; /* Centraliza no desktop */
-    gap: 15px; /* Espaço entre as divs */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 15px; 
     padding: 10px;
 }
 
@@ -148,6 +148,9 @@ p{
     .catalogo h1{
         font-size: 30px;
         font-family: serif;
+    }
+    .box:hover {
+        transform: none;
     }
 }
 .btn2{
