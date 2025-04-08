@@ -98,7 +98,7 @@ p{
 
 .box {
     flex: 1 1 calc(10% - 20px); 
-    padding: 16px;
+    padding: 10px;
     width: 50%;
     background-color:  rgb(122, 126, 126);
     text-align: center;
@@ -145,7 +145,7 @@ p{
         margin-left: 5px;
     }
     .box img{
-        width: 50px;
+        width: 100%;
     }
     .catalogo{
         padding: 1rem 1rem;
@@ -196,11 +196,9 @@ p{
     font-family: serif !important;
 }
 .box img {
-    margin: 10px 0;
-    max-width: 90%;
-    width: 200px;
-    border-radius: 3px;
-    height: 27vh;
+    width: 100%;;
+    border-radius: 6px;
+    height: 37vh;
 }
 .nome{
     font-size: 30px;
