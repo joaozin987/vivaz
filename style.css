@@ -281,7 +281,7 @@ footer .redes .whats a i{
     margin: 2rem auto;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(131, 130, 130, 0.5);
 }
 
 .carousel-item {
@@ -294,7 +294,7 @@ footer .redes .whats a i{
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
     border-radius: 50%;
     padding: 10px;
 }
