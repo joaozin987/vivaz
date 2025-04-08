@@ -129,7 +129,7 @@ p{
         margin-left: 0;
         margin-right: 0;
         gap: 3px;
-        height: 55vh; 
+        height: 60vh; 
         flex: 1 1 calc(40% - 20px);
     }
     .box  th h2{
