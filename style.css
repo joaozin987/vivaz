@@ -39,7 +39,6 @@ header a{
 a:hover{
     cursor: pointer;
     color: black ;
-    transform: scale(1.2);
 }
 
 li{
@@ -100,11 +99,11 @@ p{
     flex: 1 1 calc(10% - 20px); 
     padding: 10px;
     width: 50%;
-    background-color:  rgb(122, 126, 126);
+    background-color:  rgb(212, 212, 212);
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 10px;
-    height: 73vh;
+    height: 67vh;
     margin-left: 4rem;
     box-shadow: 2px 2px 2px 2px#ddd;
     font-family: cursive;
@@ -146,6 +145,7 @@ p{
     }
     .box img{
         width: 100%;
+        height: auto;
     }
     .catalogo{
         padding: 1rem 1rem;
@@ -167,36 +167,35 @@ p{
         position: fixed;
         z-index: 1000; 
     }
-    
+    .carousel-inner {
+        height: 64vh;
+        width: 100%;
+        border-radius: 10px;
+    }
     
 }
 
 .btn2{
-    padding: 8px 8px;
+    padding: 5px 5px;
     display: inline-block;
     cursor: pointer;
-    margin-top: 0.5rem;
     margin-right: 1rem;
-    background-color: #0f0707 !;
+    background-color: #0f0707;
     color: wheat;
     border-radius: 5px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: serif;
     text-decoration: none;
-
 }
 
-.box:hover{
-     transform: scale(1.1);
-}
 .box th h1{
     font-size: 1.4rem;
     color: #0f0707;
     font-family: serif !important;
 }
 .box img {
-    width: 100%;;
+    width: 90%;;
     border-radius: 6px;
     height: 37vh;
 }
@@ -207,10 +206,10 @@ p{
     font-style: italic;
 }
 .desconto{
-    font-size: 20px;
+    font-size: 15px;
     color: #0f0707;
-    margin-bottom: 1.5px;
-    margin-top: 1rem;
+    margin-bottom: 2px;
+    margin-top: 0.5rem;
 }
 .desconto span {
     background: yellow;
@@ -221,22 +220,23 @@ p{
     border-radius: 3px;
 }
 .normal{
-    font-size: 24px;
+    font-size: 15px;
     color: #0f0707;
+    margin-bottom: 5px;
 
 }
 
 .btn2{
-    padding: 8px 8px;
+    padding: 5px 5px;
     display: inline-block;
     cursor: pointer;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
     background-color: #0f0707;
     color: wheat;
     border-radius: 5px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
 }
 .btn2:hover{
@@ -282,13 +282,4 @@ footer .redes .insta a i{
 footer .redes .whats a i{
     color: rgb(7, 168, 1);
     transition: .4s;
-}
-
-.whats:hover{
-    transform: scale(1.2);
-}
-
-.insta:hover{
-    transform: scale(1.2);
-
 }
