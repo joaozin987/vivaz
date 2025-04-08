@@ -125,13 +125,16 @@ p{
         margin-left: 0;
         margin-right: 0;
         gap: 3px;
-        height: 60vh; 
+        height: 53vh; 
         flex: 1 1 calc(40% - 20px);
     }
     .box  th h2{
         margin-top: 2%;
         font-family: serif;
         margin-bottom: 2%;
+    }
+    .box img{
+        height: 25vh !important;
     }
     .card-container{
         flex-direction:  row;
