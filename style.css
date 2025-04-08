@@ -157,8 +157,14 @@ p{
     }
     .carousel-inner .carousel-item {
         height: 50vh !important;
-        width: 100%;
+        margin: 0 auto ;
+        overflow: hidden;
     }
+    #carouselExample {
+        width:  70%; /* ou 100%, ou o valor que quiser */
+        margin: 0 auto;
+        border-radius: 10px;
+}
 }
 .catalogo h1 {
     font-size: 30px;
