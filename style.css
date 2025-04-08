@@ -67,19 +67,15 @@ p{
 .catalogo{
     background-color: rgb(57, 59, 59);
     padding: 10px;
-    margin-top: 5rem;
-    color: lightblue;
-    border-radius: 1.4rem;
-    align-items: center;
-    text-align: center;
-    box-shadow:  2px 3px 4px#ddd;
+    margin: 5rem auto 0 auto;
     width: 40%;
-
-    margin-left: 4rem;
+    text-align: center; 
+    border-radius: 1.4rem;
+    box-shadow: 2px 3px 4px #ddd;
+    color: lightblue;
 }
 .catalogo h1{
     font-size: 30px;
-    
     font-family: cursive;
 }
 .flexx{
@@ -143,10 +139,6 @@ p{
     .btn2{
         margin-left: 5px;
     }
-    .box img{
-        width: 100%;
-        height: auto;
-    }
     .catalogo{
         padding: 1rem 1rem;
         width: 70%;
@@ -156,23 +148,21 @@ p{
     }
     .catalogo h1{
         font-size: 30px;
+        margin-top: 0.3rem !important;
         font-family: serif;
+        color: #ddd;
     }
-    .box:hover {
-        transform: none;
-    }
-    .carousel-control-prev, .carousel-control-next {
-        top: -3%;
-        transform: translateY(-3%);
-        position: fixed;
-        z-index: 1000; 
-    }
-    .carousel-inner {
-        height: 64vh;
+    .carousel-inner .carousel-item {
+        height: 50vh !important;
         width: 100%;
-        border-radius: 10px;
     }
-    
+}
+
+.catalogo h1 {
+    font-size: 30px;
+    font-family: serif;
+    color: #ddd;
+    text-align: center; 
 }
 
 .btn2{
@@ -282,4 +272,32 @@ footer .redes .insta a i{
 footer .redes .whats a i{
     color: rgb(7, 168, 1);
     transition: .4s;
+}
+
+#carouselExample {
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
 }
