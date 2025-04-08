@@ -157,8 +157,7 @@ p{
     }
     .carousel-inner .carousel-item {
         height: 50vh !important;
-        margin: 0 auto ;
-        overflow: hidden;
+
     }
     #carouselExample {
         width:  70%; /* ou 100%, ou o valor que quiser */
