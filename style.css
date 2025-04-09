@@ -170,7 +170,7 @@ p{
         max-height: 60vh;
     }
     #lightbox{
-        z-index: 100;
+        z-index: 2000;
     }
 }
 .catalogo h1 {
