@@ -99,7 +99,7 @@ p{
     text-align: center;
     border: 1px solid #000000;
     border-radius:       10px;
-    height: 56vh;
+    height: 60vh;
     margin-left: 4rem;
     box-shadow: 2px 2px 2px 2px#000000;
     font-family: cursive;
@@ -120,7 +120,7 @@ p{
     }
 
     .box {
-         height: 40vh;
+         height: 42vh;
          width: 73%;
          margin-bottom: 2rem;
          margin-left: 3.6rem;
