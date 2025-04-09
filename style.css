@@ -117,89 +117,90 @@ h3{
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        position: relative;
-        z-index: 1050;
+        .navbar {
+            position: relative;
+            z-index: 1050;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            z-index: 700; 
+        }
+
+        .box {
+            height: 42vh;
+            width: 73%;
+            margin-bottom: 2rem;
+            margin-left: 3.6rem;
+        }
+        .box  th h2{
+            margin-top: 2%;
+            font-family: serif;
+            margin-bottom: 2%;
+        }
+        .box img{
+            height: 30vh !important;
+            width: 92% !important;
+        }
+        .card-container{
+            display: grid;
+            flex-direction: column !important;
+            gap: 1rem !important;
+        }
+        .btn2{
+            margin-left: 5px;
+            font-family: 'Roboto', sans-serif !important;
+        }
+        .catalogo{
+            padding: 1rem 1rem;
+            width: 70%;
+        }
+        footer{
+            margin-top: 0;
+        }
+        .catalogo h1{
+            font-size: 30px;
+            margin-top: 0.3rem !important;
+            font-family: serif;
+            color: #ddd;
+        }
+        .carousel-inner .carousel-item {
+            height: 50vh !important;
+
+        }
+        #carouselExample {
+            width:  70%; 
+            margin: 0 auto;
+            border-radius: 10px;
     }
 
-    .carousel-control-prev,
-    .carousel-control-next {
-        z-index: 700; 
+        #lightbox img{
+            transform: scale(0.7) !important;
+            max-width: 82vw;
+            max-height: 60vh;
+            margin: auto;
+            display: block;
+        }
+        #lightbox{
+            z-index: 2000 !important;
+        }
+        .desconto{
+            font-family: 'Roboto', sans-serif !important;
+        }
+        .normal{
+            font-family: 'Roboto', sans-serif !important;
+        }
+        .promocoes{
+            width: 100%;
+            align-items: center;
+            
+            height: 4vh;
+        }
+        h3{
+            font-size: 15px;
+            margin-top: 2px;
+        }
     }
-
-    .box {
-         height: 42vh;
-         width: 73%;
-         margin-bottom: 2rem;
-         margin-left: 3.6rem;
-    }
-    .box  th h2{
-        margin-top: 2%;
-        font-family: serif;
-        margin-bottom: 2%;
-    }
-    .box img{
-        height: 25vh !important;
-    }
-    .card-container{
-        display: grid;
-        flex-direction: column !important;
-        gap: 1rem !important;
-    }
-    .btn2{
-        margin-left: 5px;
-        font-family: 'Roboto', sans-serif !important;
-    }
-    .catalogo{
-        padding: 1rem 1rem;
-        width: 70%;
-    }
-    footer{
-        margin-top: 0;
-    }
-    .catalogo h1{
-        font-size: 30px;
-        margin-top: 0.3rem !important;
-        font-family: serif;
-        color: #ddd;
-    }
-    .carousel-inner .carousel-item {
-        height: 50vh !important;
-
-    }
-    #carouselExample {
-        width:  70%; 
-        margin: 0 auto;
-        border-radius: 10px;
-}
-
-    #lightbox img{
-        transform: scale(0.7) !important;
-        max-width: 82vw;
-        max-height: 60vh;
-        margin: auto;
-        display: block;
-    }
-    #lightbox{
-        z-index: 2000 !important;
-    }
-    .desconto{
-        font-family: 'Roboto', sans-serif !important;
-    }
-    .normal{
-        font-family: 'Roboto', sans-serif !important;
-    }
-    .promocoes{
-        width: 100%;
-        align-items: center;
-        
-        height: 4vh;
-    }
-    h3{
-        font-size: 15px;
-        margin-top: 2px;
-    }
-}
 .catalogo h1 {
     font-size: 30px;
     font-family: serif;
