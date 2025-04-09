@@ -168,6 +168,8 @@ p{
         transform: scale(0.7) !important;
         max-width: 82vw;
         max-height: 60vh;
+        margin: auto;
+        display: block;
     }
     #lightbox{
         z-index: 2000 !important;
@@ -335,6 +337,7 @@ footer .redes .whats a i{
 #lightbox img {
     width: auto;
     height: auto;
+    display: flex;
     max-width: 80vw;
     max-height: 60vh;
     border-radius: 10px;
