@@ -123,7 +123,7 @@ p{
          height: 45vh;
          width: 73%;
          margin-bottom: 2rem;
-         margin-left: 4.3rem;
+         margin-left: 4.1rem;
     }
     .box  th h2{
         margin-top: 2%;
@@ -325,7 +325,7 @@ footer .redes .whats a i{
         background-color: rgba(0,0,0,0.9);
         justify-content: center;
         align-items: center;
-        z-index: 7999;
+        z-index: 9999;
         cursor: zoom-out;
 }
 
@@ -337,5 +337,5 @@ footer .redes .whats a i{
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s ease;
-    transform: scale(0.6);
+    transform: scale(1.2);
 }
