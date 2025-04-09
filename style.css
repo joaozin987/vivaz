@@ -166,8 +166,11 @@ p{
 
     #lightbox img{
         transform: scale(0.7) !important;
-        max-width: 72vw;
+        max-width: 82vw;
         max-height: 60vh;
+    }
+    #lightbox{
+        z-index: 100;
     }
 }
 .catalogo h1 {
