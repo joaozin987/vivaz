@@ -1,5 +1,5 @@
 
-function redirectToWhatsApp() {
+function redirectToWhatsApp(modelo, imagemURl) {
     var phoneNumber = '82998271078'; 
     var message = 'Olá, gostaria de Comprar um óculos.'; 
 
