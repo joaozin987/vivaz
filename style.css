@@ -209,7 +209,8 @@ p{
     font-style: italic;
 }
 .desconto{
-    font-size: 15px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #e7e6e6;
     margin-bottom: 2px;
     margin-top: 0.5rem;
@@ -218,13 +219,14 @@ p{
     background: yellow;
     padding: 1px 5px;
     margin-left: 0.3rem;
-    font-size: 12px;
+    font-size: 15px;
     color: #0c0c0c;
     border-radius: 3px;
 }
 .normal{
-    font-size: 15px;
+    font-size: 18px;
     color: #e4dcdc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 5px;
 
 }
