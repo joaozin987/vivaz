@@ -132,6 +132,7 @@ h3{
             width: 68%;
             margin-bottom: 2rem;
             margin-left: 3.6rem;
+            object-fit: contain;
         }
         .box  th h2{
             margin-top: 2%;
