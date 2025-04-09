@@ -99,7 +99,7 @@ p{
     text-align: center;
     border: 1px solid #000000;
     border-radius:       10px;
-    height: 63vh;
+    height: 56vh;
     margin-left: 4rem;
     box-shadow: 2px 2px 2px 2px#000000;
     font-family: cursive;
@@ -120,7 +120,7 @@ p{
     }
 
     .box {
-         height: 45vh;
+         height: 38vh;
          width: 73%;
          margin-bottom: 2rem;
          margin-left: 3.6rem;
@@ -173,6 +173,12 @@ p{
     }
     #lightbox{
         z-index: 2000 !important;
+    }
+    .desconto{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .normal{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
 .catalogo h1 {
