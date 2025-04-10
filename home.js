@@ -1,11 +1,11 @@
 
-function redirectToWhatsApp(modelo, imagemURL) {
-    const phoneNumber = '82998271078'; 
-    const message = `Olá, gostaria de comprar um óculos.\nModelo: ${modelo}\nVeja a imagem: ${imagemURL}`;
-    
-    const whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
-    window.location.href = whatsappUrl; 
-}
+  function redirectToWhatsApp(modelo, imagemURL) {
+    const numero = '82998271078';
+    const mensagem = `Olá, gostaria de comprar um óculos.\nModelo: ${modelo}\nVeja a imagem: ${imagemURL}`;
+    const url = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(mensagem);
+    window.open(url, '_blank');
+  }
+
 
 
 

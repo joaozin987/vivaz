@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
-    <script src="/home.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -72,30 +72,33 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
 
           </script>
-        <div class="flexx">
+          
+       
+        <div class="flexx" >
 
-            <div class="catalogo">
-              <h1>Catálogo Vivaz</h1>
+            <div class="catalogo" id="app">
+              <h1>Catálogo Vivaz </h1>
             </div>
           </div>
             <div class="promocoes">
               <h3>Seu Primeiro Pedido com 5% OFF!</h3>
             </div>
           <section class="flexx" id="produtos">
-
-          <div class="card-container">     
+              
+          <div class="card-container">  
+            
               <div class="box">
                 <div class="th">
-                  
+                
               </div>
 
-                  <img src="/img/569c6206-8e72-4b4b-8658-3ecd83b529b7.jpeg"  alt="" width="" onclick="openImage(this.src)">
+                  <img src="/img/569c6206-8e72-4b4b-8658-3ecd83b529b7.jpeg"  alt="Óculos Modelo 123" width="" onclick="openImage(this.src)">
                   <div class="precos">
                     <p class="desconto"> R$ 115,68<span>-5%</span></p>
                     <p class="normal">ou  R$ 109,50</p>
                   </div>
                   <div class="botoes">
-                      <a  href="https://wa.me/82998271078?text=Olá,%20gostaria%20de%20comprar%20um%20óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                    <button class="btn2" onclick="redirectToWhatsApp('Óculos Modelo 123', 'https://vivazz.netlify.app/img/569c6206-8e72-4b4b-8658-3ecd83b529b7.jpeg')">Comprar</button>
                   </div>
               </div>  
               <div class="box">
@@ -109,7 +112,7 @@
                       <p class="normal">ou  R$ 66,50</p>
                     </div>
                     <div class="botoes">
-                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                     </div>
                 </div>  
               
@@ -124,7 +127,7 @@
                       <p class="normal">ou  R$ 66,50</p>
                     </div>
                     <div class="botoes">
-                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                     </div>
                 </div>  
 
@@ -138,7 +141,7 @@
                         <p class="normal">ou  R$ 66,50</p>
                       </div>
                       <div class="botoes">
-                          <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                          <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                       </div>
                   </div>  
               </div> 
@@ -159,7 +162,7 @@
                   <p class="normal">ou  R$ 109,50</p>
                 </div>
                 <div class="botoes">
-                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                 </div>
             </div>  
             <div class="box">
@@ -173,7 +176,7 @@
                     <p class="normal">ou  R$ 109,90</p>
                   </div>
                   <div class="botoes">
-                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                   </div>
               </div>  
             
@@ -188,7 +191,7 @@
                     <p class="normal">ou  R$ 109,90</p>
                   </div>
                   <div class="botoes">
-                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                   </div>
               </div>  
 
@@ -202,7 +205,7 @@
                       <p class="normal">ou  R$ 109,90</p>
                     </div>
                     <div class="botoes">
-                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                        <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                     </div>
                 </div>  
             </div> 
@@ -223,7 +226,7 @@
                 <p class="normal">ou  R$ 66,50</p>
               </div>
               <div class="botoes">
-                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
               </div>
           </div>  
           <div class="box">
@@ -237,7 +240,7 @@
                   <p class="normal">ou  R$ 66,50</p>
                 </div>
                 <div class="botoes">
-                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                 </div>
             </div>  
           
@@ -252,7 +255,7 @@
                   <p class="normal">ou  R$ 66,50</p>
                 </div>
                 <div class="botoes">
-                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                 </div>
             </div>  
 
@@ -266,7 +269,7 @@
                     <p class="normal">ou  R$ 66,50</p>
                   </div>
                   <div class="botoes">
-                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                      <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                   </div>
               </div>  
           </div> 
@@ -287,7 +290,7 @@
               <p class="normal">ou  R$ 66,50</p>
             </div>
             <div class="botoes">
-                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
             </div>
         </div>  
         <div class="box">
@@ -301,7 +304,7 @@
                 <p class="normal">ou  R$ 66,50</p>
               </div>
               <div class="botoes">
-                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
               </div>
           </div>  
         
@@ -316,7 +319,7 @@
                 <p class="normal">ou  R$ 66,50</p>
               </div>
               <div class="botoes">
-                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
               </div>
           </div>  
 
@@ -330,7 +333,7 @@
                   <p class="normal">ou  R$ 66,50</p>
                 </div>
                 <div class="botoes">
-                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                    <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
                 </div>
             </div>  
         </div> 
@@ -351,7 +354,7 @@
             <p class="normal">ou  R$ 109,90</p>
           </div>
           <div class="botoes">
-              <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+              <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
           </div>
       </div>  
       <div class="box">
@@ -365,7 +368,7 @@
               <p class="normal">ou  R$ 109,90</p>
             </div>
             <div class="botoes">
-                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
             </div>
         </div>  
       
@@ -380,7 +383,7 @@
               <p class="normal">ou  R$ 109,90</p>
             </div>
             <div class="botoes">
-                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
             </div>
         </div>  
 
@@ -394,11 +397,11 @@
                 <p class="normal">ou  R$109,90</p>
               </div>
               <div class="botoes">
-                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Pagar antecipado</a >
+                  <a  href="https://wa.me/82998271078?text=Olá %20gostaria%20de%20compra%20um óculos." target="_blank" class="btn2">Comprar</a >
               </div>
           </div>  
       </div> 
-      </div>
+      </div>  
   </section>
 </section>
 
@@ -420,7 +423,7 @@
           <div id="lightbox" onclick="closeImage()">
             <img id="lightbox-img" src="" alt="Imagem ampliada">
           </div>
-
+          <script src="home.js"></script>
 </body>
 
 </html>
