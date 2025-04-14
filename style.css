@@ -99,7 +99,7 @@ p{
     text-align: center;
     border: 1px solid #000000;
     border-radius:       10px;
-    height: 59vh;
+    height: 59-vh;
     margin-left: 4rem;
     box-shadow: 2px 2px 2px 2px#8a8989;
     font-family: cursive;
@@ -117,7 +117,7 @@ h3{
     margin-top: 1.8rem !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
         .navbar {
             position: relative;
             z-index: 1050;
@@ -130,7 +130,7 @@ h3{
 
         .box {
             height: 48vh;
-            width: 68%;
+            width: 78%;
             margin-bottom: 2rem;
             margin-left: 3.6rem;
             object-fit: contain;
@@ -145,9 +145,10 @@ h3{
             width: 92% !important;
         }
         .card-container{
-            display: grid;
-            flex-direction: column !important;
+            display: flex;
+            flex-direction: row !important;
             gap: 1rem !important;
+            justify-content: space-between;
         }
         .btn2{
             margin-left: 5px;
