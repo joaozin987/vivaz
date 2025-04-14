@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #0a0000 !important;
+  background-color: #000000 !important;
   margin: auto;
   height: auto;
 }
@@ -95,11 +95,11 @@ p{
     flex: 1 1 calc(10% - 20px); 
     padding: 10px;
     width: 50%;
-    background-color:  rgba(48, 48, 48, 0.527);
+    background-color:  rgba(43, 42, 42, 0.781);
     text-align: center;
     border: 0.4px  #000000;
-    border-radius: 4px;
-    height: 60vh;
+    border-radius: 6px;
+    height: 61vh;
     margin-left: 4rem;
     font-family: cursive;
     transition: .4s;
@@ -130,9 +130,9 @@ h3{
         .box {
             height: 45vh;
             width: 60% !important;
-            margin-bottom: 2rem;
-            margin-left: 2.6rem;
-            object-fit: contain;
+            margin-left: auto;
+            margin-right: auto;
+            
         }
         .box  th h2{
             margin-top: 2%;
@@ -146,7 +146,7 @@ h3{
         .card-container{
             display: flex;
             flex-direction: row !important;
-            gap: 0.5rem !important;
+            gap: 1.5rem !important;
             justify-content: space-between;
         }
         .btn2{
