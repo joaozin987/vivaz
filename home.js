@@ -1,11 +1,17 @@
+document.querySelectorAll('.box').forEach(card => {
+  const nome = card.querySelector('img')?.alt || 'Produto';
+  const img = card.querySelector('img')?.src || '';
+  const botao = card.querySelector('.btn2');
 
-  function redirectToWhatsApp(modelo, imagemURL) {
-    const numero = '82998271078';
-    const mensagem = `Olá, gostaria de comprar um óculos.\nModelo: ${modelo}\nVeja a imagem: ${imagemURL}`;
-    const url = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(mensagem);
-    window.open(url, '_blank');
+  if (botao) {
+    botao.onclick = () => {
+      const numero = '82998271078';
+      const msg = `Olá, gostaria de comprar o produto: *${nome}*%0AImagem: ${img}`;
+      const url = `https://wa.me/${numero}?text=${msg}`;
+      window.open(url, '_blank');
+    };
   }
-
+});
 
 
 
