@@ -155,7 +155,7 @@ h3{
     .btn2 {
         margin-left: 5px;
         font-family: 'Poppins' !important;
-        color: #fffdfd !important;
+        color: #ffffff ;
     }
 
     .catalogo {
@@ -221,9 +221,9 @@ h3{
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 360px) {
     .box {
-        width: 90% !important;
+        width: 100% !important;
         height: 20vh !important;
         
     }
@@ -231,6 +231,7 @@ h3{
     .btn2 {
         width: 100%;
         font-size: 14px;
+        color: #fffdfd;
         padding: 0.5rem 0;
         box-sizing: border-box;
         margin-left: 0 !important;
@@ -244,7 +245,7 @@ h3{
     }
 
     .box img {
-        width: 100% !important;
+        width: 93% !important;
     }
 }
 
