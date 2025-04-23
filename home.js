@@ -26,3 +26,4 @@ function closeImage() {
 document.getElementById("lightbox").style.display = "none";
 
 }
+
