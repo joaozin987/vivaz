@@ -5,7 +5,7 @@ document.querySelectorAll('.box').forEach(card => {
 
   if (botao) {
     botao.onclick = () => {
-      const numero = '82998271078';
+      const numero = '82987229827';
       const msg = `Olá, gostaria de comprar o produto: *${nome}*%0AImagem: ${img}`;
       const url = `https://wa.me/${numero}?text=${msg}`;
       window.open(url, '_blank');
