@@ -1,3 +1,10 @@
+function redirectToWhatsApp(productName, imageUrl) {
+  const numero = '82987229827';
+  const msg = `Olá, gostaria de comprar o produto: *${productName}*%0AImagem: ${imageUrl}`;
+  const url = `https://wa.me/${numero}?text=${msg}`;
+  window.open(url, '_blank');
+}
+
 document.querySelectorAll('.box').forEach(card => {
   const nome = card.querySelector('img')?.alt || 'Produto';
   const img = card.querySelector('img')?.src || '';
